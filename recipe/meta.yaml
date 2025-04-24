@@ -35,7 +35,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: COPYING
-  summary: 'Client and window-manager helpers for EWMH and ICCCM'
+  summary: Client and window-manager helpers for EWMH and ICCCM
 
 extra:
   recipe-maintainers:
