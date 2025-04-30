@@ -24,7 +24,6 @@ requirements:
   host:
     - libxcb
     - xorg-xproto
-    - xorg-libxau
 
 test:
   commands:
@@ -32,6 +31,8 @@ test:
 
 about:
   home: https://xcb.freedesktop.org/
+  dev_url: https://gitlab.freedesktop.org/xorg/lib/libxcb-util
+  doc_url: https://gitlab.freedesktop.org/xorg/lib/libxcb-util
   license: MIT
   license_family: MIT
   license_file: COPYING
