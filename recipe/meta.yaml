@@ -18,7 +18,6 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
-    - {{ stdlib('c') }}
     - make
     - m4
     - pkg-config
@@ -32,10 +31,12 @@ test:
 
 about:
   home: https://xcb.freedesktop.org/
+  dev_url: https://gitlab.freedesktop.org/xorg/lib/libxcb-util
+  doc_url: https://gitlab.freedesktop.org/xorg/lib/libxcb-util
   license: MIT
   license_family: MIT
   license_file: COPYING
-  summary: 'Client and window-manager helpers for EWMH and ICCCM'
+  summary: Client and window-manager helpers for EWMH and ICCCM
 
 extra:
   recipe-maintainers:
